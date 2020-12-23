@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>自适应布局导航栏</title>
+		<link href="自适应导航.css" rel="stylesheet" />
+		
+	</head>
+<body>
+	
+<div class="bar" >
+	<nav >
+		<ul>
+		<li><a href="#">首页</a></li>
+		<li><a href="#">公司简介</a></li>
+		<li><a href="#">解决方案</a></li>
+		<li><a href="#">客户案例</a></li>
+		<li><a href="#">团队介绍</a></li>
+		<li><a href="#">服务支持</a></li>	
+		<li><a href="#">联系我们</a></li>
+		</ul>
+	</nav>
+</div>	
+
+
+
+<div class="slidebox">
+<ul class="slides">
+			<input  type="radio" id="control-1" name="centrol" checked>
+			<input  type="radio" id="control-2" name="centrol">
+			<input  type="radio" id="control-3" name="centrol">
+			
+			<li class="slide" style="background-image: url(img/pexels-kaboompics-com-6444.jpg);background-size: cover;"></li></li>
+			<li class="slide" style="background-image: url(img/2.jpg);background-size: cover;"></li></li>
+			<li class="slide" style="background-image: url(img/3.jpg);background-size: cover;"></li></li>
+			
+			
+			
+			<div class="control-visible">
+				<label for="control-1"></label>
+				<label for="control-2"></label>
+				<label for="control-3"></label>
+			</div>
+		</ul>
+
+</div>
+
+
+
+
+<div class="services-section" >
+	
+	
+	
+	<div class="inner-width">
+							<h1 class="section-title">Our Service</h1>
+							<div class="border"></div>
+							<div class="services-container">
+								<div class="service-box">
+									<div class="service-icon">
+										<i class="fa">1</i>
+									</div>
+									<div class="service-title">Web Design</div>
+									<div class="service-desc">
+										做过电商项目的同学都知道，店铺装修是电商系统必备的一个功能，在某些场景下，可能是广告页制作、活动页制作、微页面制作，但基本功能都是类似的。所谓店铺装修，就是用户可以在
+										PC端进行移动页辑，属于用户高度自定义的功能。最终编辑的结果。
+									</div>
+								</div>
+								<div class="service-box">
+									<div class="service-icon">
+										<i class="fa">2</i>
+									</div>
+									<div class="service-title">Web Design</div>
+									<div class="service-desc">
+										做过电商项目的同学都知道，店铺装修是电商系统必备的一个功能，在某些场景下，可能是广告页制作、活动页制作、微页要通过简单的拖拽就可以实现页面的编辑，属于用户高度自定义的功能。最终编辑的结果。
+									</div>
+								</div>
+								<div class="service-box">
+									<div class="service-icon">
+										<i class="fa">3</i>
+									</div>
+									<div class="service-title">Web Design</div>
+									<div class="service-desc">
+										做过电商项目的同学都知道，店铺装修是电商系统必备的一个功能，在某些场景下，可能是广告页制作、活动页制作、微页面制作，但基本功能都是拖拽就可以实现页面的编辑，属于用户高度自定义的功能。最终编辑的结果。
+									</div>
+								</div>
+								<div class="service-box">
+									<div class="service-icon">
+										<i class="fa">4</i>
+									</div>
+									<div class="service-title">Web Design</div>
+									<div class="service-desc">
+										PC端进行移动页面的制作，只需要通过简单的拖拽就可以实现页面的编辑，属于用户高度自定义的功能。最终编辑的结果。
+									</div>
+								</div>
+								<div class="service-box">
+									<div class="service-icon">
+										<i class="fa">5</i>
+									</div>
+									<div class="service-title">Web Design</div>
+									<div class="service-desc">
+										做过电商项目的同学都知道，店铺装修是电商系统必备的一个功能，在某些场景下，可能是广告页制作、活动页制。所谓店铺装修，就是用户可以在
+										PC端进行移动页面的制作，只需要通过简单的拖拽就可以实现页面的编辑，属于用户高度自定义的功能。最终编辑的结果。
+									</div>
+								</div>
+								<div class="service-box">
+									<div class="service-icon">
+										<i class="fa">6</i>
+									</div>
+									<div class="service-title">Web Design</div>
+									<div class="service-desc">
+										做过电商项目的同学都知道，店铺装修是电商系统必备的一个功能，在某些场景下，可能是广告页制作、活动页制作、微页面制作，但基本需要通过简单的拖拽就可以实现页面的编辑，属于用户高度自定义的功能。最终编辑的结果。
+									</div>
+								</div>
+							</div>
+						</div>
+</div>	
+
+<div id="guodu" style="position:absolute;z-index100000; left: 0px;right: 0px; top: 0px;">
+		 
+		<ul class="stacks">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	
+	</body>
+</html>
+
+
+<script>
+			document.getElementById("guodu").addEventListener("transitionend",Visible);
+			function Visible() {
+				
+				this.style.display="none";
+				}
+		</script>
+	</script>
